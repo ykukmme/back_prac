@@ -1,11 +1,11 @@
-package org.example;
+package org.example.pass;
 
 import org.passay.CharacterData;
 import org.passay.CharacterRule;
 import org.passay.EnglishCharacterData;
 import org.passay.PasswordGenerator;
 
-public class RandomPasswordGenerator implements org.example.PasswordGenerator {
+public class RandomPasswordGenerator implements org.example.pass.PasswordGenerator {
 
     public static final String ALLOW_SPL_CHARACTERS = "!@#$%^&*()_+";
 

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.pass;
 
 public class PasswordValidator {
 
