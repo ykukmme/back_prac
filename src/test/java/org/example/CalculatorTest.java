@@ -17,7 +17,7 @@ import static org.junit.jupiter.params.provider.Arguments.arguments;
 //MVC 패턴 사용해보기
 public class CalculatorTest {
 
-    @DisplayName("덧셈 연산을 해본다")
+    @DisplayName("연산을 해본다")
     @ParameterizedTest
     @MethodSource("formulaAndResult")
     void calculatorTest(int operand1, String operator, int operand2, int result) {
